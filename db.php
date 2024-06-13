@@ -2,7 +2,7 @@
 
 $servername = "localhost";
 $username = "root";
-$passord = "";
+$password = "";
 $dbname = "crud_db";
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
